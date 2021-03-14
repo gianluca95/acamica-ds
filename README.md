@@ -19,4 +19,7 @@ Results improved considerable: a RMSE of 32.193 (-78% reduction compared to Proj
 
 By last, two clustering techniques were added (KMeans and DBSCAN) to detect possible similarity on neighborhoods areas around Buenos Aires or by the property types. It's concluded that DBSCAN fits better and a little interesting and "peculiar" group of houses were detected. 
 
-### [Project 3](https://github.com/gianluca95/acamica-ds/blob/main/DS_Proyecto_03_SR.ipynb/)
+### [Project 3](https://github.com/gianluca95/acamica-ds/blob/main/DS_Proyecto_03_ST.ipynb/)
+Proyect 3 was based on predicting the vehicular flow of a Buenos Aires station. I did a thorough Exploratory Data Analysis, outliers detection and then I trained some time-series based models. As a first approach, I developed a benchmark model, one-step and multi-step prediction and then I used Prophet (Facebook based library) to reach the goal.
+
+Best results are obtained by the one-step prediction (RMSE of 4790.99).
